@@ -1,0 +1,34 @@
+{
+
+    "name": "tdd-boilerplate",
+
+    "version": "0.0.1",
+
+    "description": "A simple js project to do ur tdd stuff.",
+
+    "scripts": {
+        "tdd": "./node_modules/grunt-cli/bin/grunt"
+    },
+
+    "repository" :{
+        "type" : "git",
+        "url" : "https://github.com/hkelf/tdd-boilerplate.git"
+    },
+
+    "author": "hkelf",
+
+    "license": "WTFPL",
+
+    "devDependencies": {
+        "grunt": "^0.4.5",
+        "phantomjs": "^1.9.19",
+        "karma": "^0.13.15",
+        "grunt-cli": "^0.1.13",
+        "grunt-contrib-watch": "^0.6.1",
+        "grunt-karma": "^0.12.1",
+        "karma-phantomjs-launcher": "^0.2.1",
+        "karma-jasmine": "^0.3.6",
+        "jasmine": "^2.4.1"
+    }
+
+}
